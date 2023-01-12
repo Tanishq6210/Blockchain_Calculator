@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    Enter number 1: <input type="number" id="num1"><br>
+    Enter number 2: <input type="number" id="num2"><br>
+    <button onclick="onSet()">Set Numbers</button> <br>
+    Press which operation you want to perform: <br>
+    <button onclick="onAdd()">+</button>  <button onclick="onSub()">-</button>  <button onclick="onMul()">*</button>  <button onclick="onDiv()">/</button> <br>
+    <br>
+    Output: <p id="output"></p>
+    <br><br>
+    Note: In case of divide, number 1 will be considered as numerator :)
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.0/web3.min.js"
+        integrity="sha512-RGPKVfQewHGfk9yaB7ThGPKAQU+civS5awsfStLg22jrWbqgDkNzPtIwNFpFApr3ccjB730SRxi+KnDjhIuTpw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+    <script src="script.js"></script>
+</body>
+</html>
